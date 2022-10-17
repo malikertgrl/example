@@ -6,7 +6,7 @@ export default function Maps() {
   return (
     <View style={styles.container}>
       <MapView
-        // provider={PROVIDER_GOOGLE}
+        provider={PROVIDER_GOOGLE}
         style={styles.map}
         region={{
           latitude: 37.78825,
@@ -15,13 +15,13 @@ export default function Maps() {
           longitudeDelta: 0.0421,
         }}
       >
-        {/* <Marker coordinate={{
+        <Marker coordinate={{
           latitude: 37.78825,
           longitude: -122.4324,
         }}
           title="This is a title"
           description="This is a description"
-        /> */}
+        />
       </MapView>
     </View>
   );

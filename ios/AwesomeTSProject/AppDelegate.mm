@@ -34,7 +34,7 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  [GMSServices provideAPIKey:@"AIzaSyCkKAjrpTTXLBcwj-QTgtOHN6rPpsrk5dc"];
+  [GMSServices provideAPIKey:@"AIzaSyCSPoH-BHbcLAOxUdBMErfi1gGVnyMWmGU"];
   RCTAppSetupPrepareApp(application);
 
   RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
